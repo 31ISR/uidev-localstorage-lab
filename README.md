@@ -187,7 +187,7 @@ function render() {
 
     const text = document.createElement("span");
     text.className = "todo__text";
-    text.textContent = todo.text; // именно textContent!
+    text.textContent = todo.text; 
 
     const del = document.createElement("button");
     del.type = "button";
